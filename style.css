@@ -1,0 +1,73 @@
+					form{
+			margin-left:510px;
+			margin-top:50px;
+			width:200px;
+			height:230px;
+			background-color:pink;
+			box-shadow:1px red;
+			border:1px green solid;
+			border-radius:5px;
+			font-family:Time New Roman;
+			box-shadow:5px 5px 5px grey;
+			-webkit-animation-name:example;
+			-moz-animation-name:example;
+			animation-duration:4s;
+			animation-iteration-count:1;
+			
+			
+			}
+			.mybuttons{
+			height:35px;
+			width:40px;
+			border-radius:5px;
+			border-sizing:border-box;
+			}
+			.mybuttons:hover{
+			height:35px;
+			width:40px;
+			background-color:pink;
+			}
+			.calbuttons{
+			 margin-left:15px;
+			margin-top:10px;         
+			margin-bottom:10px;         
+					  
+			}
+			.display-box{
+			margin-top:3px;
+			margin-left:16px;
+			margin-bottom:5px;
+			height:35px;
+			width:170px;
+			font-family:san serif;
+			font-size:20px;
+			border-radius:3px;
+			
+			}
+			label{
+			margin-left:80px;
+			margin-bottom:5px;
+			margin-top:10px;
+			color:green;
+			}
+			.change{
+				background-color:darkkhaki;
+			}
+			@keyframes example{
+					from{
+					
+						background-color:darksalmon;
+						transform:rotate(0deg);
+						transform-style:preserve-3d;
+						transition:all 2s ease-in-out;
+					}
+					to{
+			
+					background-color:pink;
+					transition:2s ease-in-out;
+					transform-style:preserve-3d;
+					transform:rotate(360deg);
+					}
+				
+				}
+		
