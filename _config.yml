@@ -1,0 +1,8 @@
+title: Htmlcalculator
+description: This is just a simple HTML calculator newbies can use to learn from. its absolutely simple.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
